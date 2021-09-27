@@ -1,3 +1,10 @@
 body {
   font-family: sans-serif;
 }
+
+#app {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
