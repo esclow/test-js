@@ -2,5 +2,9 @@ document.querySelector("#btn-calc").addEventListener("click", () => {
   let fieldOne = parseInt(document.querySelector("#n1").value);
   let fieldTwo = parseInt(document.querySelector("#n2").value);
 
-  alert(fieldOne + fieldTwo);
+  if (fieldOne && fieldTwo) {
+    alert(fieldOne + fieldTwo);
+  } else {
+    alert("Preencha corretamente!");
+  }
 });
