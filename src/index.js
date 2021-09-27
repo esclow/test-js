@@ -4,5 +4,7 @@ document.querySelector("#btn-calc").addEventListener("click", () => {
 
   if (fieldOne && fieldTwo) {
     alert(fieldOne + fieldTwo);
+  } else {
+    alert("Preencha corretamente!");
   }
 });
